@@ -1,0 +1,21 @@
+﻿@model SampleMWALLETOTCHPCMVC.Models.TransactionPostDTO 
+@{
+    ViewBag.Title = "Post";
+}
+
+<script type="text/javascript">
+    function submit() {
+        document.forms["FormPG"].submit();
+    }
+
+</script>
+<body onload="submit()">
+
+    <form name="FormPG" method="post" action="@Model.Url">
+
+        @foreach (var item in Model.PostParameter)
+        {
+            <input type="hidden" id="@item.Key" name="@item.Key" value="@item.Value" />
+        }
+    </form>
+</body>
