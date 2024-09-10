@@ -1,5 +1,6 @@
 # SampleMWALLETOTCHPCMVC
-This is a sample project of JazzCash Payment integration in .net 4.8.
-1st thing is Read commonts on code and fullfill requirements.
-if you find System Error or code 199 this issuse is related to merchant account
-if you have any query feel free to ask.
+Sample Project: JazzCash Payment Integration in .NET 4.8
+
+Review Comments: Check the comments in the code and complete any required tasks.
+Error Handling: If you encounter "System Error" or error code 199, it’s related to the merchant account.
+Questions?: Feel free to ask if you have any questions.
